@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style> 
+        input {background:rgb(206, 236, 145)}
+        </style>
+        <meta charset="UTF-8"/>
+        <link  rel = " stylesheet "  type = " text / css "  href = " style.css " >
+        <title>Forms</title>
+    </head>
+
+ <body> 
+      
+    Google search!<br>
+     <form action="https://www.google.com"
+           method = " GET " > </br>
+       <p>
+        <input type="text" name="q"> 
+        </p>
+
+        <p>
+        <label>Количество результатов на странице <select name="num"></label>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5" selected>5</option>
+
+        </select>
+        
+        </p>
+
+        <p>
+       <label>Язык интерфейса
+            <select name="hl"></label>
+            <option value="ru">Russian</option>
+            <option value="eng">English</option>
+            <option value="by" selected>Belarusian</option>
+        </select> 
+        </p>
+        <input type="submit" value="Search!">
+
+
+
+
+
+     </form>
+        
+
+
+
+ </body>   
+</html>
